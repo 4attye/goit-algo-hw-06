@@ -67,7 +67,7 @@ book = AddressBook()
 john_record = Record("John")
 john_record.add_phone("1234567890")
 john_record.add_phone("5555555555")
-
+john_record.remove_phone("5555555555")
 # Додавання запису John до адресної книги
 book.add_record(john_record)
 
